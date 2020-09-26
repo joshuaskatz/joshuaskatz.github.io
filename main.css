@@ -8,6 +8,19 @@ body {
   color: rgb(62, 180, 137);
 }
 
+.navbar {
+  background-color: white;
+}
+
+.nav-link {
+  color: rgb(51, 161, 121);
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: rgb(126, 241, 180);
+}
+
 .header {
   font-size: 4rem;
   font-weight: 100;
@@ -46,6 +59,27 @@ body {
   color: white;
 }
 
+.project-bg {
+  height: 35rem;
+  background-color: rgba(62, 180, 137, 0.6);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .project-bg {
+    height: 50rem;
+  }
+
+  .navbar-toggler:focus {
+    outline-color: rgba(62, 180, 137, 0.6);
+  }
+
+  .fa {
+    color: rgba(62, 180, 137, 0.6);
+    font-size: 2rem;
+  }
+}
+
 .icon {
   height: 8rem;
   margin-bottom: 0.5rem;
@@ -53,6 +87,12 @@ body {
 
 .social-icon {
   height: 3rem;
+}
+
+.language {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
 }
 
 #josh-img {
@@ -85,10 +125,11 @@ body {
 
 .social-link {
   color: rgb(51, 161, 121);
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .social-link:hover {
-  color: rgba(62, 180, 137);
+  color: rgb(126, 241, 180);
   text-decoration: none;
 }
