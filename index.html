@@ -28,8 +28,14 @@
         <i class="fa fa-plus"></i>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
+      <div
+        class="collapse navbar-collapse"
+        id="navbar"
+        data-spy="affix"
+        data-offset-top="60"
+        data-offset-bottom="200"
+      >
+        <ul class="navbar-nav mr-auto" 
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -45,6 +51,7 @@
         </ul>
       </div>
     </nav>
+ 
     <section class="text-center green-bg" id="about">
       <div class="container">
         <img src="/img/josh.png" alt="Josh" id="josh-img" />
@@ -60,12 +67,16 @@
           class="nav-link"
           href="/img/Joshua_Katz_Resume.pdf"
           download
+          
         >
           Download My Resume!
         </a>
-      </div>
+      </div> 
+      <div id="skills"/>
     </section>
-    <section class="text-center my-4" id="skills">
+   
+
+    <section class="text-center my-4">
       <div class="container">
         <h2 class="section-header">Skills</h2>
         <hr class="green-hr" />
@@ -107,7 +118,7 @@
           </div>
           <div class="col-sm-12 col-md">
             <img src="/img/icons/research.svg" class="icon" />
-            <h5 class="paragraph-header">Reasearch</h5>
+            <h5 class="paragraph-header">Research</h5>
             <p>
               Optimized synthetic routes for heterocyclic depsidone analogs
               through analyzing previously published scholarly works related to

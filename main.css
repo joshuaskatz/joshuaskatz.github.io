@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
 /*#cfffe5*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -50,17 +53,23 @@ body {
 }
 
 .white-bg {
-  height: 35rem;
+  height: 45rem;
+}
+
+.br-green {
+  background-color: rgba(62, 180, 137, 0.6);
 }
 
 .green-bg {
-  height: 35rem;
+  padding-top: 3rem;
+  height: 40rem;
   background-color: rgba(62, 180, 137, 0.6);
   color: white;
 }
 
 .project-bg {
   height: 35rem;
+
   background-color: rgba(62, 180, 137, 0.6);
   color: white;
 }
