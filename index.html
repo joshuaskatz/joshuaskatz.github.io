@@ -1,1 +1,239 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <title>Joshua Katz</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="text-center green-bg" id="about">
+      <div class="container">
+        <img src="/img/josh.png" alt="Josh" id="josh-img" />
+        <h2 class="header">Joshua Katz</h2>
+        <hr class="white-hr" />
+        <p>
+          Aspiring software developer and GraphQL enthusiast. I am currently
+          delving into the wonderful world of typescript with a GraphQL and
+          React stack.
+        </p>
+        <a
+          class="btn btn-lg"
+          class="nav-link"
+          href="/img/Joshua_Katz_Resume.pdf"
+          download
+        >
+          Download My Resume!
+        </a>
+      </div>
+    </section>
+    <section class="text-center my-4" id="skills">
+      <div class="container">
+        <h2 class="section-header">Skills</h2>
+        <hr class="green-hr" />
+        <div class="row">
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/javascript.svg" class="icon" />
+            <h5 class="paragraph-header">JavaScript</h5>
+            <p>
+              Experience designing fullstack projects with JavaScript libraries
+              and frameworks.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/typescript.svg" class="icon" />
+            <h5 class="paragraph-header">TypeScript</h5>
+            <p>
+              Learned this superset of JavaScript to introduce type-safety into
+              app development.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/graphql.svg" class="icon" />
+            <h5 class="paragraph-header">GraphQL</h5>
+            <p>
+              Coupled with ORM's such as Sequelize and TypeORM, I have created
+              performant API with relational databases.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/react.svg" class="icon" />
+            <h5 class="paragraph-header">React</h5>
+            <p>
+              Created fast and sleek apps using hooks and redux, paired with
+              GraphQL through clients like URQL and Apollo.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/research.svg" class="icon" />
+            <h5 class="paragraph-header">Reasearch</h5>
+            <p>
+              Optimized synthetic routes for heterocyclic depsidone analogs
+              through analyzing previous scholarly works released related to the
+              subject.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/communication.svg" class="icon" />
+            <h5 class="paragraph-header">Communication</h5>
+            <p>
+              From presenting my research at conferences such as SERMACS, I have
+              experience inerpreting information in a clear and concise manner.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center green-bg py-4" id="projects">
+      <div class="container">
+        <h2 class="section-header">Projects</h2>
+        <hr class="white-hr" />
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md">
+            <h3>
+              <a
+                href="https://www.github.com/joshuaskatz/chat-app-server"
+                class="project-link"
+              >
+                Chat App Server
+              </a>
+            </h3>
+            <p class="language">TypeScript</p>
+            <p>
+              This is a GraphQL API with social media functinallity. It allows
+              for sending, accepting, and deleting friend requests, as well as
+              private messaging other users on your friends list.
+            </p>
+            <p>
+              <b>Technologies used:</b> Type-GraphQL, TypeORM - used Raw SQL,
+              Jest
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <h3>
+              <a
+                href="https://share-our-water.herokuapp.com"
+                class="project-link"
+              >
+                Share Our Water
+              </a>
+            </h3>
+
+            <p class="language">JavaScript</p>
+            <p>
+              This is a fishing log where users can enter and track their
+              fishing trips, as well as their tackle. You can also view all
+              rivers logged in the database on comprehensive map.
+            </p>
+            <p>
+              <b>Technologies used:</b> React, Bootstrap, GraphQL, Apollo,
+              Prisma, MapBox, Jest
+            </p>
+          </div>
+          <div class="col-sm-12 col-md">
+            <h3>
+              <a href="https://www.findyourreps.com" class="project-link">
+                Find Your Reps
+              </a>
+            </h3>
+            <p class="language">JavaScript</p>
+            <p>
+              This app allows the user to click anywhere on the map, and using
+              the OpenStates GraphQL API, fetches information on the state level
+              legislators for that location.
+            </p>
+            <p><b>Technologies used:</b> React, Bootstrap, MapBox</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center mt-4 mb-5" id="contact">
+      <div class="container">
+        <h2 class="section-header">Contact</h2>
+        <hr class="green-hr" />
+        <div class="row mt-4">
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/linkedin.svg" class="social-icon" />
+            <h5>
+              <a
+                href="https://www.linkedin.com/in/joshua-katz-043596159/"
+                class="social-link"
+                >LinkedIn</a
+              >
+            </h5>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/gmail.svg" class="social-icon" />
+            <h5>
+              <a href="mailto: joshua.samuel.katz@gmail.com" class="social-link"
+                >joshua.samuel.katz@gmail.com</a
+              >
+            </h5>
+          </div>
+          <div class="col-sm-12 col-md">
+            <img src="/img/icons/github.svg" class="social-icon" />
+            <h5>
+              <a href="https://www.github.com/joshuaskatz" class="social-link">
+                Github</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

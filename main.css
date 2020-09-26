@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+/*#cfffe5*/
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: rgb(62, 180, 137);
+}
+
+.header {
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+.section-header {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.paragraph-header {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
+
+.white-hr {
+  border-top: 1px solid white;
+  width: 75%;
+}
+
+.green-hr {
+  border-top: 1px solid rgb(62, 180, 137);
+  width: 75%;
+}
+
+.white-bg {
+  height: 35rem;
+}
+
+.green-bg {
+  height: 35rem;
+  background-color: rgba(62, 180, 137, 0.6);
+  color: white;
+}
+
+.icon {
+  height: 8rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icon {
+  height: 3rem;
+}
+
+#josh-img {
+  border-radius: 100px;
+  height: 12rem;
+  margin: 2.5rem 0;
+  box-shadow: 2px 2px 5px rgb(51, 161, 121);
+}
+
+.btn {
+  color: white;
+  background: rgba(62, 180, 137);
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.project-link {
+  color: #cfffe5;
+}
+
+.project-link:hover {
+  color: rgba(62, 180, 137);
+  text-decoration: none;
+}
+
+.social-link {
+  color: rgb(51, 161, 121);
+  font-size: 1rem;
+}
+
+.social-link:hover {
+  color: rgba(62, 180, 137);
+  text-decoration: none;
+}
