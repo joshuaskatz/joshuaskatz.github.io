@@ -68,10 +68,18 @@ body {
 }
 
 .project-bg {
-  height: 35rem;
-
+  height: 40rem;
   background-color: rgba(62, 180, 137, 0.6);
   color: white;
+}
+
+@media (min-width: 768px) {
+  .project-bg {
+    height: 30rem;
+
+    background-color: rgba(62, 180, 137, 0.6);
+    color: white;
+  }
 }
 
 @media (max-width: 768px) {
