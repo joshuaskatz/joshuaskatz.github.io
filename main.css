@@ -61,8 +61,8 @@ body {
 }
 
 .green-bg {
-  padding-top: 3rem;
-  height: 40rem;
+  padding-top: 5rem;
+  height: 25rem;
   background-color: rgba(62, 180, 137, 0.6);
   color: white;
 }
@@ -115,11 +115,19 @@ body {
   margin-bottom: 0.2rem;
 }
 
-#josh-img {
-  border-radius: 100px;
-  height: 12rem;
-  margin: 2.5rem 0;
-  box-shadow: 2px 2px 5px rgb(51, 161, 121);
+.img-container {
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  position: fixed;
+  max-height: 20rem;
+  bottom: 0rem;
+  right: 0rem;
+}
+
+#fixed-img {
+  width: auto;
+  height: 10rem;
 }
 
 .btn {
